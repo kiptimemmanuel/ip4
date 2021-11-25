@@ -1,12 +1,14 @@
 .div1{
     background-color: rgb(210, 18, 18);
+    opacity: 80%;
 }
 .mainbackground{
-    background-color: orange
+    background-image: url(../images/234230599.jpg);
 }
 .div2{
-    background-color: rgb(210, 18, 18);
+    background-color: orange;
     font-size: 10mm;
+    opacity: 80%;
 }
 .textarea{
   background-color: black;
@@ -14,21 +16,25 @@
 }
 .div3{
     background-color: rgb(210, 18, 18);
+    opacity: 85%;
 }
 .div4{
-    background-color: rgb(210, 18, 18);
+    background-color: orange;
+    opacity: 80%;
 }
 .div5{
     background-color: rgb(210, 18, 18);
+    opacity: 80%;
 }
 .div6{
-    background-color: rgb(210, 18, 18);
+    background-color: orange;
+    opacity: 80%;
 }
 p{
-    color:black
+    color:orange
 }
 h1{
-    color: black;
+    color: orange;
 };
 h4{
     color:bl;
