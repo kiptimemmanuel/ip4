@@ -1,11 +1,11 @@
 .div1{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
 }
 .mainbackground{
     background-color: orange
 }
 .div2{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
     font-size: 10mm;
 }
 .textarea{
@@ -13,14 +13,23 @@
   color: white;
 }
 .div3{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
 }
 .div4{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
 }
 .div5{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
 }
 .div6{
-    background-color: rgb(212, 18, 18);
+    background-color: rgb(210, 18, 18);
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h4{
+    color: white;
 }
