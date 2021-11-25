@@ -4,61 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>THE ART OF PIZZA</title>
   </head>
   <body>
-    <div>
+    <div class="col-12 text-center">
       <h1>THE ART OF PIZZA</h1>
       <h4>SERVING GREAT ART FROM OUR FAMILY TO YOURS</h4>
-    <p>
+      <p>
         Welcome to <strong>THE ART OF PIZZA RESTAURANT</strong>. Are you hungry?
         Worry no more beacuse yo know why? We got you with a pizza that you will
         never taste like this one.
-    </p>
+      </p>
     </div>
-    <div>
-        <p>What size of pizza would you like?</p>
+    <div class="row text-center">
+      <p>What size of pizza would you like?</p>
+        <div class="col-4" >
         <label for="small"> SMALL</label>
-        <input type="radio" class="size" id="small" name="size">
+        <input type="radio" class="size" id="small" name="size" />
+        </div>
+        <div class="col-4">
         <label for="medium">MEDIUM</label>
-        <input type="radio" class="size" id="medium"  name="size">
-        <label for="large"> LARGE</label>
-        <input type="radio" class="size" id="large" name="size">
+        <input type="radio" class="size" id="medium" name="size" />
+        </div>
+        <div class="col-4">
+            <label for="large"> LARGE</label>
+        <input type="radio" class="size" id="large" name="size" />
+        </div>
+        
+      </div>
     </div>
-    <div>
-        <p>What kind of crust would you like? </p>
+    <div class=" row text-center">
+      <p>What kind of crust would you like?</p>
+    <div class="col-4"> 
         <label for="crispy"> CRISPY</label>
-        <input type="radio" class="crust" id="crispy" name="crust" >
+        <input type="radio" class="crust" id="crispy" name="crust" />
+    </div>
+    <div class="col-4">
         <label for="stuffed"> STUFFED </label>
-        <input type="radio" class="crust"  id="stuffed" name="crust"  >
+        <input type="radio" class="crust" id="stuffed" name="crust" />  
+    </div>
+    <div class="col-4">
         <label for="glutten-free"> GLUTEN-FREE</label>
-        <input type="radio" class="crust" id="glutten-free" name="crust" >
+        <input type="radio" class="crust" id="glutten-free" name="crust" />
     </div>
-    <div>
-        <p>Which toppings do you want?</p>
+    </div>
+    <div class="row text-center">
+      <p>Which toppings do you want?</p>
+      <div class="col-3">
         <label for="pepperoni">PEPPERONI</label>
-        <input type="radio" class="toppings" id="pepperoni" name="toppings" >
+        <input type="radio" class="toppings" id="pepperoni" name="toppings" />
+      </div>
+      <div class="col-3">
         <label for="mushroom"> MUSHROOM</label>
-        <input type="radio" class="toppings"  id="mushroom" name="toppings"  >
+        <input type="radio" class="toppings" id="mushroom" name="toppings" />
+      </div>
+      <div class="col-3">
         <label for="Extracheese"> EXTRACHEESE</label>
-        <input type="radio" class="toppings" id="Extracheese" name="toppings" >
+        <input type="radio" class="toppings" id="Extracheese" name="toppings" />
+      </div>
+      <div class="col-3">
         <label for="bacon"> BACON</label>
-        <input type="radio" class="toppings" id="bacon" name="toppings"  >
+        <input type="radio" class="toppings" id="bacon" name="toppings" />
+      </div>
     </div>
-    <DIV>
-        <p>Don't limit yourself, how many pizzas do you want ? </p>
-        <label for="quantity"> HOW MANY PIZZAS DO YOU WANT ? </label>
-        <input type="text" id="quantity" placeholder="quantity">
-    </DIV>
-    <div>
-        <p>We do delivery services, would you wish it could be delivered?</p>
-        <label for="yes"> YES</label>
-        <input type="radio" name="delivery" id="yes">
-        <label for="no">NO</label>
-        <input type="radio" name="delivery" id="no">
+    <div class="row text-center">
+      <p>Don't limit yourself, how many pizzas do you want ?</p>
+      <label for="quantity"> HOW MANY PIZZAS DO YOU WANT ? </label>
+      <input type="text" id="quantity" placeholder="quantity"/>
     </div>
-    <div>
-        <footer>THANK YOU FOR VISITING US</footer>
+    <br>
+    <div class="text-center">
+      <p>We do delivery services, would you wish it could be delivered?</p>
+      <label for="yes"> YES</label>
+      <input type="radio" name="delivery" id="yes" />
+      <label for="no">NO</label>
+      <input type="radio" name="delivery" id="no" />
     </div>
- </body>
+    <br>
+    <br>
+    <div class="text-center">
+      <footer>THANK YOU FOR VISITING US</footer>
+    </div>
+  </body>
 </html>
