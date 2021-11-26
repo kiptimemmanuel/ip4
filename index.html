@@ -10,108 +10,155 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/scripts.js"></script>
     <title>THE ART OF PIZZA</title>
   </head>
   <body>
     <div class="container-fluid margin-auto mainbackground">
-        <div class="row text-center div1 p-5">
-            <h1>THE ART OF PIZZA</h1>
-            <h4 style="color: orange;">SERVING GREAT ART FROM OUR FAMILY TO YOURS</h4>
-            <p>
-              Welcome to <strong>THE ART OF PIZZA RESTAURANT</strong>. Are you hungry?
-              Worry no more beacuse yo know why? We got you with a pizza that you will
-              never taste like this one.
-            </p>
-            <br>
-            <br>
+      <div class="row text-center div1 p-5">
+        <h1>THE ART OF PIZZA</h1>
+        <h4 style="color: orange">
+          SERVING GREAT ART FROM OUR FAMILY TO YOURS
+        </h4>
+        <p>
+          Welcome to <strong>THE ART OF PIZZA RESTAURANT</strong>. Are you
+          hungry? Worry no more beacuse yo know why? We got you with a pizza
+          that you will never taste like this one.
+        </p>
+        <br />
+        <br />
+      </div>
+      <br />
+      <br />
+      <div class="row text-center div2 p-5">
+        <p style="font-size: 20mm; color: red">
+          What size of pizza would you like?
+        </p>
+        <div class="col-4">
+          <label for="small" style="color: red"> SMALL@500</label>
+          <input type="radio" class="size" id="small" name="size" />
         </div>
-          <br>
-          <br>
-        <div class="row text-center div2 p-5">
-            <p style="font-size:20mm; color: red;">What size of pizza would you like?</p>
-              <div class="col-4" >
-              <label for="small" style="color:red;"> SMALL@500</label>
-              <input type="radio" class="size" id="small" name="size" />
-              </div>
-              <div class="col-4">
-              <label for="medium" style="color:red;">MEDIUM @700</label>
-              <input type="radio" class="size" id="medium" name="size" />
-              </div>
-              <div class="col-4">
-                  <label for="large" style="color: red;"> LARGE@1000</label>
-              <input type="radio" class="size" id="large" name="size" />
-              </div>
-              <br>
-              <br>
+        <div class="col-4">
+          <label for="medium" style="color: red">MEDIUM @700</label>
+          <input type="radio" class="size" id="medium" name="size" />
         </div>
-            <br>
-            <br>
-    
-        <div class=" row text-center div3 p-5">
-            <p style="font-size: 20mm;">What kind of crust would you like?</p>
-          <div class="col-4"> 
-              <label for="crispy" style="color: orange;"> CRISPY +100/=</label>
-              <input type="radio" class="crust" id="crispy" name="crust" />
-          </div>
-          <div class="col-4">
-              <label for="stuffed" style="color: orange;"> STUFFED +100</label>
-              <input type="radio" class="crust" id="stuffed" name="crust" />  
-          </div>
-          <div class="col-4">
-              <label for="glutten-free" style="color: orange;"> GLUTEN-FREE+100 </label>
-              <input type="radio" class="crust" id="glutten-free" name="crust" />
-          </div>
+        <div class="col-4">
+          <label for="large" style="color: red"> LARGE@1000</label>
+          <input type="radio" class="size" id="large" name="size" />
         </div>
-        <br>
-        <br>
+        <br />
+        <br />
+      </div>
+      <br />
+      <br />
 
-        <div class="row text-center div4 p-5">
-            <p style="font-size: 20mm;color: red;">Which toppings do you want?</p>
-            <div class="col-3">
-              <label for="pepperoni" style="color: red;">PEPPERONI <br> +100/=small, +200/=medium, +300/=large</label>
-              <input type="radio" class="toppings" id="pepperoni" name="toppings" />
-            </div>
-            <div class="col-3">
-              <label for="mushroom" style="color: red;"> MUSHROOM <br> +100/=small, +200/=medium, +300/=large</label>
-              <input type="radio" class="toppings" id="mushroom" name="toppings" />
-            </div>
-            <div class="col-3">
-              <label for="Extracheese" style="color: red;"> EXTRACHEESE <br> +100/=small, +200/=medium, +300/=large</label>
-              <input type="radio" class="toppings" id="Extracheese" name="toppings" />
-            </div>
-            <div class="col-3">
-              <label for="bacon" style="color: red;"> BACON <br> +100/=small, +200/=medium, +300/=large</label>
-              <input type="radio" class="toppings" id="bacon" name="toppings" />
-            </div>
+      <div class="row text-center div3 p-5">
+        <p style="font-size: 20mm">What kind of crust would you like?</p>
+        <div class="col-4">
+          <label for="crispy" style="color: orange"> CRISPY +100/=</label>
+          <input type="radio" class="crust" id="crispy" name="crust" />
         </div>
-        <br>
-        <br>
-        <div class=" text-center div5 p-5">
-            <p style="font-size: 15mm;">Don't limit yourself, how many pizzas do you want ?</p>
-            <div class="text-center">
-            <label for="quantity" style="color: orange;"> HOW MANY PIZZAS DO YOU WANT ? </label><br>
-            <textarea name="quantity" id="quantity" cols="0.5" rows="01" class="textarea" placeholder=" write a number" ></textarea>
-            </div>
+        <div class="col-4">
+          <label for="stuffed" style="color: orange"> STUFFED +100</label>
+          <input type="radio" class="crust" id="stuffed" name="crust" />
         </div>
-        <br>
-        <br>
-        <div class="text-center div6 p-5">
-            <p style="font-size: 15mm; color: red;">We do delivery services, would you wish it could be delivered?</p>
-            <label for="yes"> YES</label>
-            <input type="radio" name="delivery" id="yes" />
-            <label for="no">NO</label>
-            <input type="radio" name="delivery" id="no" />
+        <div class="col-4">
+          <label for="glutten-free" style="color: orange">
+            GLUTEN-FREE+100
+          </label>
+          <input type="radio" class="crust" id="glutten-free" name="crust" />
         </div>
-        <br>
-        <DIV class="text-center">
-          <button type="button" style="background-color: orangered; color: orange;">CHECKOUT</button>
-        </DIV>
-          <br>
-          <br>
-        <div class="text-center div7">
-            <footer>THANK YOU FOR VISITING US</footer>
+      </div>
+      <br />
+      <br />
+
+      <div class="row text-center div4 p-5">
+        <p style="font-size: 20mm; color: red">Which toppings do you want?</p>
+        <div class="col-3">
+          <label for="pepperoni" style="color: red"
+            >PEPPERONI <br />
+            +100/=small, +200/=medium, +300/=large</label
+          >
+          <input type="radio" class="toppings" id="pepperoni" name="toppings" />
         </div>
+        <div class="col-3">
+          <label for="mushroom" style="color: red">
+            MUSHROOM <br />
+            +100/=small, +200/=medium, +300/=large</label
+          >
+          <input type="radio" class="toppings" id="mushroom" name="toppings" />
+        </div>
+        <div class="col-3">
+          <label for="Extracheese" style="color: red">
+            EXTRACHEESE <br />
+            +100/=small, +200/=medium, +300/=large</label
+          >
+          <input
+            type="radio"
+            class="toppings"
+            id="Extracheese"
+            name="toppings"
+          />
+        </div>
+        <div class="col-3">
+          <label for="bacon" style="color: red">
+            BACON <br />
+            +100/=small, +200/=medium, +300/=large</label
+          >
+          <input type="radio" class="toppings" id="bacon" name="toppings" />
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="text-center div5 p-5">
+        <p style="font-size: 15mm">
+          Don't limit yourself, how many pizzas do you want ?
+        </p>
+        <div class="text-center">
+          <label for="quantity" style="color: orange">
+            HOW MANY PIZZAS DO YOU WANT ? </label
+          ><br />
+          <textarea
+            name="quantity"
+            id="quantity"
+            cols="0.5"
+            rows="01"
+            class="textarea"
+            placeholder=" write a number"
+          ></textarea>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="text-center div6 p-5">
+        <p style="font-size: 15mm; color: red">
+          We do delivery services, would you wish it could be delivered?
+        </p>
+        <label for="yes"> YES</label>
+        <input type="radio" name="delivery" id="yes" />
+        <label for="no">NO</label>
+        <input type="radio" name="delivery" id="no" />
+      </div>
+      <br />
+      <div class="text-center">
+        <button
+          type="button"
+          style="background-color: orangered; color: orange"
+         onclick="checkout()">
+          CHECKOUT
+        </button>
+      </div>
+      <br />
+      <br />
+      <div class="text-center div7">
+        <footer>THANK YOU FOR VISITING US</footer>
+      </div>
     </div>
   </body>
 </html>

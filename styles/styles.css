@@ -1,41 +1,42 @@
-.div1{
-    background-color: rgb(210, 18, 18);
-    opacity: 80%;
+.div1 {
+  background-color: rgb(210, 18, 18);
+  opacity: 90%;
 }
-.mainbackground{
-    background-image: url(../images/234230599.jpg);
+.mainbackground {
+  background-image: url(../images/234230599.jpg);
 }
-.div2{
-    background-color: orange;
-    font-size: 10mm;
-    opacity: 80%;
+.div2 {
+  background-color: orange;
+  font-size: 10mm;
+  opacity: 90%;
 }
-.textarea{
+.textarea {
   background-color: black;
   color: white;
 }
-.div3{
-    background-color: rgb(210, 18, 18);
-    opacity: 85%;
+.div3 {
+  background-color: rgb(210, 18, 18);
+  opacity: 90%;
 }
-.div4{
-    background-color: orange;
-    opacity: 80%;
+.div4 {
+  background-color: orange;
+  opacity: 90%;
+  font-weight: bold;
 }
-.div5{
-    background-color: rgb(210, 18, 18);
-    opacity: 80%;
+.div5 {
+  background-color: rgb(210, 18, 18);
+  opacity: 90%;
 }
-.div6{
-    background-color: orange;
-    opacity: 80%;
+.div6 {
+  background-color: orange;
+  opacity: 90%;
 }
-p{
-    color:orange
+p {
+  color: orange;
 }
-h1{
-    color: orange;
-};
-h4{
-    color:bl;
+h1 {
+  color: orange;
+}
+h4 {
+  color: bl;
 }
