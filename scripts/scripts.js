@@ -1,11 +1,10 @@
-function checkout () {
-    
-    let delivered = document.getElementById("yes").checked;
-    let notDelivered = document.getElementById("no").checked;
+function delivery () {
+    let delivered = document.getElementById("yes").innerHTML
+    let notDelivered = document.getElementById("no").innerHTML
     console.log(delivered, notDelivered)
-    if( delivered === true && notDelivered === false){
-        prompt("Where do you want it to be delivered?")
-        alert("your delivery fee will be 100/=.")
-        
-    }
+    alert("your delivery fee will be 100/=.")
+    prompt("Where do you want it to be delivered?")
+    alert("your order will be delivered to your location")
+    
 }
+
