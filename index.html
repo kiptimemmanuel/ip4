@@ -42,15 +42,15 @@
         </p>
         <div class="col-4">
           <label for="small" style="color: red"> SMALL@500</label>
-          <input type="radio" class="size" id="small" name="size" />
+          <input type="radio" class="size" id="small" name="size" value="small"/>
         </div>
         <div class="col-4">
           <label for="medium" style="color: red">MEDIUM @700</label>
-          <input type="radio" class="size" id="medium" name="size" />
+          <input type="radio" class="size" id="medium" name="size" value="medium" />
         </div>
         <div class="col-4">
           <label for="large" style="color: red"> LARGE@1000</label>
-          <input type="radio" class="size" id="large" name="size" />
+          <input type="radio" class="size" id="large" name="size" value="large" />
         </div>
         <br />
         <br />
@@ -62,17 +62,17 @@
         <p style="font-size: 20mm">What kind of crust would you like?</p>
         <div class="col-4">
           <label for="crispy" style="color: orange"> CRISPY +100/=</label>
-          <input type="radio" class="crust" id="crispy" name="crust" />
+          <input type="radio" class="crust" id="crispy" name="crust" value="crispy" />
         </div>
         <div class="col-4">
           <label for="stuffed" style="color: orange"> STUFFED +100</label>
-          <input type="radio" class="crust" id="stuffed" name="crust" />
+          <input type="radio" class="crust" id="stuffed" name="crust" value="stuffed"/>
         </div>
         <div class="col-4">
           <label for="glutten-free" style="color: orange">
             GLUTEN-FREE+100
           </label>
-          <input type="radio" class="crust" id="glutten-free" name="crust" />
+          <input type="radio" class="crust" id="glutten-free" name="crust" value="glutten-free"/>
         </div>
       </div>
       <br />
@@ -85,25 +85,26 @@
             >PEPPERONI <br />
             +100/=small, +200/=medium, +300/=large</label
           >
-          <input type="radio" class="toppings" id="pepperoni" name="toppings" />
+          <input type="radio" class="toppings" id="pepperoni" name="toppings" value="pepperoni"/>
         </div>
         <div class="col-3">
           <label for="mushroom" style="color: red">
             MUSHROOM <br />
             +100/=small, +200/=medium, +300/=large</label
           >
-          <input type="radio" class="toppings" id="mushroom" name="toppings" />
+          <input type="radio" class="toppings" id="mushroom" name="toppings"  value="mushhroom"/>
         </div>
         <div class="col-3">
-          <label for="Extracheese" style="color: red">
+          <label for="extracheese" style="color: red">
             EXTRACHEESE <br />
             +100/=small, +200/=medium, +300/=large</label
           >
           <input
             type="radio"
             class="toppings"
-            id="Extracheese"
+            id="extracheese"
             name="toppings"
+            value="extracheese"
           />
         </div>
         <div class="col-3">
@@ -111,7 +112,7 @@
             BACON <br />
             +100/=small, +200/=medium, +300/=large</label
           >
-          <input type="radio" class="toppings" id="bacon" name="toppings" />
+          <input type="radio" class="toppings" id="bacon" name="toppings" value="bacon" />
         </div>
       </div>
       <br />
@@ -140,7 +141,7 @@
         <p style="font-size: 15mm; color: red">
           We do delivery services, would you wish it could be delivered?
         </p>
-       <button type="button" style="background-color: orange;"  id="yes" onclick="delivery()"  >YES</button>  <br></BR>
+       <button type="button" style="background-color: orange;"  id="yes" onclick="delivery()">YES</button>  <br></BR>
        <button type="button" style="background-color: orange;" id="no">NO</button> 
         
       </div>
