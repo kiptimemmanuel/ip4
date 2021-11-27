@@ -37,73 +37,73 @@ function checkout(){
     if ( s ==true&&m==false&&l==false){
         if(c==true&&st==false&&g==false){
             if(p==true&&mu==false&&ex==false&&ba==false)
-            {alert ("your order is "+ qty + " small pizza with pepperoni toppings crispy  crusted which will cost:")}
+            {alert ("your order is "+ qty + " small pizza with pepperoni toppings crispy  crusted which will cost:" +(700*qty)+"ksh")}
             else if(p==false&&mu==true&&ex==false&& ba==false)
-            {alert ("your order is " +qty+ " small pizza with mushroom toppings crispy  crusted which will cost:")}
+            {alert ("your order is " +qty+ " small pizza with mushroom toppings crispy  crusted which will cost:" +(700*qty)+"ksh")}
             else if (p==false&&mu==false&&ex==true&&ba==false)
-            {alert ("your order is " +qty+ " small pizza with extra-cheese toppings crispy  crusted which will cost:")}
+            {alert ("your order is " +qty+ " small pizza with extra-cheese toppings crispy  crusted which will cost:" +(700*qty)+"ksh")}
             else if (p==false&&mu==false&&ex==false&&ba==true){
-                alert ("your order is " +qty+ " small pizza with bacon toppings crispy  crusted which will cost:")
+                alert ("your order is " +qty+ " small pizza with bacon toppings crispy  crusted which will cost:" +(700*qty)+"ksh")
             }
         }
         else if (c==false&&st==true&&g==false){
             if(p==true&&mu==false&&ex==false&&ba==false){
-                alert ("your order is " +qty+ " small pizza with pepperoni toppings stuffed  crusted which will cost:")
+                alert ("your order is " +qty+ " small pizza with pepperoni toppings stuffed  crusted which will cost:" +(700*qty)+"ksh")
             }
             else if(p==false&&mu==true&&ex==false&& ba==false){
-                alert ("your order is " +qty+ " small pizza with mushroom toppings stuffed  crusted which will cost:")
+                alert ("your order is " +qty+ " small pizza with mushroom toppings stuffed  crusted which will cost:" +(700*qty)+"ksh")
             }
             else if (p==false&&mu==false&&ex==true&&ba==false){
-                alert ("your order is " +qty+ " small pizza with extracheese toppings stuffed  crusted which will cost:")
+                alert ("your order is " +qty+ " small pizza with extracheese toppings stuffed  crusted which will cost:" +(700*qty)+"ksh")
             }
             else if (p==false&&mu==false&&ex==false&&ba==true){
-                alert ("your order is " +qty+ "  small pizza with bacon toppings stuffed  crusted which will cost:")
+                alert ("your order is " +qty+ "  small pizza with bacon toppings stuffed  crusted which will cost:" +(700*qty)+"ksh")
             }
         }
         else if (c==false&&st==false&&g==true){
-            if(p==true&&mu==false&&ex==false&&ba==false){alert ("your order is " +qty+ " small pizza with pepperoni toppings glutten-free  crusted which will cost:")}
-            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is " +qty+ " small pizza with mushroom toppings glutten-free  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order is " +qty+ " small pizza with extracheese toppings glutten-free  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is " +qty+ " small pizza with bacon toppings glutten-free  crusted which will cost:")}}
+            if(p==true&&mu==false&&ex==false&&ba==false){alert ("your order is " +qty+ " small pizza with pepperoni toppings glutten-free  crusted which will cost:" +(700*qty)+"ksh")}
+            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is " +qty+ " small pizza with mushroom toppings glutten-free  crusted which will cost:" +(700*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order is " +qty+ " small pizza with extracheese toppings glutten-free  crusted which will cost:" +(700*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is " +qty+ " small pizza with bacon toppings glutten-free  crusted which will cost:" +(700*qty)+"ksh")}}
     }
     else if (s==false&&m==true&&l==false){
         if(c==true&&st==false&&g==false){
-            if(p==true&&mu==false&&ba==false){alert ("your order is " +qty+ " medium pizza with pepproni toppings crispy   crusted which will cost:")}
-            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is " +qty+ " medium pizza with mushroom toppings crispy   crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order is " +qty+ " medium pizza with extracheese toppings crispy   crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is " +qty+ " medium pizza with bacontoppings crispy   crusted which will cost:")}
+            if(p==true&&mu==false&&ba==false){alert ("your order is " +qty+ " medium pizza with pepproni toppings crispy   crusted which will cost:"+(1000*qty)+"ksh")}
+            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is " +qty+ " medium pizza with mushroom toppings crispy   crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order is " +qty+ " medium pizza with extracheese toppings crispy   crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is " +qty+ " medium pizza with bacontoppings crispy   crusted which will cost:"+(1000*qty)+"ksh")}
         }
         else if (c==false&&st==true&&g==false){
-            if(p==true&&mu==false&&ba==false){alert ("your order is " +qty+ " medium pizza with pepperoni toppings stuffed  crusted which will cost:")}
-            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is is " +qty+ " medium pizza with mushroom toppings stuffed  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " medium pizza with extracheese toppings stuffed  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " medium pizza with bacon toppings stuffed  crusted which will cost:")}}
+            if(p==true&&mu==false&&ba==false){alert ("your order is " +qty+ " medium pizza with pepperoni toppings stuffed  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order is is " +qty+ " medium pizza with mushroom toppings stuffed  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " medium pizza with extracheese toppings stuffed  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " medium pizza with bacon toppings stuffed  crusted which will cost:"+(1000*qty)+"ksh")}}
         else if (c==false&&st==false&&g==true){
-            if(p==true&&mu==false&&ba==false){alert ("your order  is " +qty+ " medium pizza with pepporoni toppings glutten-free  crusted which will cost:")}
-            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " medium pizza with mushroom toppings glutten-free  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " medium pizza with extracheese toppings glutten-free  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " medium pizza with bacon toppings glutten-free  crusted which will cost:")}
+            if(p==true&&mu==false&&ba==false){alert ("your order  is " +qty+ " medium pizza with pepporoni toppings glutten-free  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " medium pizza with mushroom toppings glutten-free  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " medium pizza with extracheese toppings glutten-free  crusted which will cost:"+(1000*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " medium pizza with bacon toppings glutten-free  crusted which will cost:"+(1000*qty)+"ksh")}
         }
         }
     else if (s==false&&m==false&&l==true){
         if(c==true&&st==false&&g==false){
-            if(p==true&&mu==false&&ba==false){alert ("your order  is " +qty+ "large pizza with pepperoni toppings crispy  crusted which will cost:")}
-            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings crispy  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ "  large pizza with extracheese toppings crispy  crusted which will cost:")}
-            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " large pizza with bacon toppings crispy  crusted which will cost:")
-}}
+            if(p==true&&mu==false&&ba==false){alert ("your order  is " +qty+ "large pizza with pepperoni toppings crispy  crusted which will cost:"+(1400*qty)+"ksh")}
+            else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings crispy  crusted which will cost:"+(1400*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ "  large pizza with extracheese toppings crispy  crusted which will cost:"+(1400*qty)+"ksh")}
+            else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " large pizza with bacon toppings crispy  crusted which will cost:"+(1400*qty)+"ksh")
+ }}
     
         
          else if (c==false&&st==true&&g==false){
-             if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ "large pizza with pepperoni toppings stuffed  crusted which will cost:")}
-             else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings stuffed  crusted which will cost:")}
-             else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " large pizza with extracheese toppings stuffed  crusted which will cost:")}
-             else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " large pizza with bacon toppings stuffed  crusted which will cost:")}
+             if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ "large pizza with pepperoni toppings stuffed  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings stuffed  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " large pizza with extracheese toppings stuffed  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order  is " +qty+ " large pizza with bacon toppings stuffed  crusted which will cost:"+(1400*qty)+"ksh")}
          else if (c==false&&st==false&&g==true)
-             if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with pepperoni toppings glutten-free  crusted which will cost:")}
-             else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings glutten-free  crusted which will cost:")}
-             else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " large pizza with extracheese toppings glutten-free  crusted which will cost:")}
-             else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is" +qty+ " large pizza with bacon toppings glutten-free  crusted which will cost:")}
+             if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with pepperoni toppings glutten-free  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if(p==false&&mu==true&&ex==false&& ba==false){alert ("your order  is " +qty+ " large pizza with mushroom toppings glutten-free  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if (p==false&&mu==false&&ex==true&&ba==false){alert ("your order  is " +qty+ " large pizza with extracheese toppings glutten-free  crusted which will cost:"+(1400*qty)+"ksh")}
+             else if (p==false&&mu==false&&ex==false&&ba==true){alert ("your order is" +qty+ " large pizza with bacon toppings glutten-free  crusted which will cost:"+(1400*qty)+"ksh")}
             }
     }
     
