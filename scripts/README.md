@@ -11,9 +11,6 @@ https://kiptimemmanuel.github.io/ip4/
 ## Known Bugs
 No known bugs found so far.
 ## Technologies Used
-In this web application we have used HTML , CSS, JAVASCRIPT and BOOTSTRAP
+In this web application we have used HTML , CSS, JAVASCRIPT and BOOTSTRAP so that it could work.
 ## Support and contact details
 If you run into any issues with the code you can contribute to the project, reporting the issue and probably suggesting a fix.
-### License
-This software is under the [MIT](LICENSE) license
-Copyright (c) {2021}
